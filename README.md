@@ -20,21 +20,23 @@ You can install the necessary dependencies by running the following command:
 
 ```bash
 pip install -r requirements.txt
+```
 
+```bash
 Usage
 
     Clone or download this repository.
     Install the dependencies using pip install -r requirements.txt.
     Run the script with the path to the PE file you want to analyze.
-
+```
 ```bash
 python pe_import_scanner.py <path_to_pe_file>
-
+```
 Example:
 
 ```bash
 python pe_import_scanner.py sample.exe
-
+```
 The tool will display the imported DLLs and functions in a formatted table.
 Output
 
